@@ -51,7 +51,7 @@ A Helm chart for Kubernetes
 | podSecurityContext | object | `{}` |  |
 | readinessProbe.initialDelaySeconds | int | `20` |  |
 | readinessProbe.tcpSocket.port | string | `"http"` |  |
-| replicaCount | int | `1` |  |
+| replicaCount | int | `3` |  |
 | resources | object | `{}` |  |
 | securityContext | object | `{}` |  |
 | service.port | int | `8080` |  |
